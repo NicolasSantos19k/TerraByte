@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/site-icon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="google" content="notranslate">
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script/script.js" defer></script>
+    <title>Terrabyte Imobiliária</title>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="#"><img src="images/logo3.png" alt="" class="logo"></a>
+        </div>
+        <nav class="nav-bar">
+            <a href="#casas"><li class="nav-item">Casas</li></a>
+            <a href="#vendas"><li class="nav-item">Vendas</li></a>
+            <a href="#clientes"><li class="nav-item">Clientes</li></a>
+            <a href="#contato"><li class="nav-item">Contato</li></a>
+        </nav>
+        <div class="header-login">
+            <a href="login.html" class="login-link"><h1 class="loginbtn">Login</h1></a>
+            <h1 class="searchbtn"><i class="fa-solid fa-user"></i></h1>
+        </div>
+    </header>
+    <div class="back" id="home">
+        <div class="back-text">
+            <h1 class="back-title">ENCONTRE A CASA DOS SEUS SONHOS</h1>
+            <div class="back-text-stars">
+                <p class="back-subtitle">Moema</p>
+                <i class="fa-solid fa-star"></i>
+                <p class="back-subtitle">Morumbi</p>
+                <i class="fa-solid fa-star"></i>
+                <p class="back-subtitle">Jardins</p>
+                <i class="fa-solid fa-star" id="celular"></i>
+                <p class="back-subtitle" id="celular">Pinheiros</p>
+            </div>
+        </div>
+        <div class="back-btns">
+            <div class="back-btns-1">
+                <button class="back-btn1">Todos os tipos</button>
+                <button class="back-btn2">Aluguel</button>
+                <button class="back-btn2">Venda</button>
+            </div>
+            <div class="back-btns-2">
+                <input type="number" name="" id="numbers" placeholder="Quartos" min="1" max="10">
+                <input type="number" name="" id="numbers" placeholder="Banheiros" min="1" max="10">
+                <input type="number" name="" class="celular" id="numbers" placeholder="Cozinhas" min="1" max="10">
+                <input type="number" name="" class="tablet" id="numbers" placeholder="Vagas" min="1" max="10">
+                <button class="back-btn3">Procurar</button>
+            </div>
+            <div class="back-arrow">
+                <a href="#home"><i class="fa-solid fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </div>
+    <article>
+        <div class="mensagem" id="casas">
+            <p class="mensagem-title">Nossos imóveis</p>
+            <h1 class="mensagem-text">Nossas novas casas à venda e aluguel</h1>
+            <p class="mensagem-subtitle">Os imóveis Terrabyte são conhecidos por sua arquitetura moderna e acabamento de alta qualidade.</p>
+        </div>
+    </article>
+    <div class="cards-container">
+        <div class="card card-1-animation">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Casa</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/casa1.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Casa</p>
+                <h4 class="card-subtitle">R$ 12.000.000</h4>
+                <h3 class="card-subtitle-2">Casa de alto padrão em Alphaville</h3>
+                <p class="card-subtitle-3">Avenida das palmeiras - 144</p>
+            <div class="bottom-position-card">
+                <div class="forniture-icons">
+                    <div class="forniture-contain">
+                    <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                    <label for="fa-bed" id="forniture-label">6</label>
+                </div>
+                <div class="forniture-contain">
+                    <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                    <label for="fa-shower" id="forniture-label">5</label>
+                </div>
+                <div class="forniture-contain">
+                    <i class="fa-solid fa-car" id="forniture-icon"></i>
+                    <label for="fa-car" id="forniture-label">3</label>
+                </div>
+                <div class="forniture-contain">
+                    <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                    <label for="fa-ruler" id="forniture-label">1200m²</label>
+                </div>
+                </div>
+                <div class="card-contact">
+                    <div class="card-contact-container">
+                        <button class="card-contact-call">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            Ligar
+                        </button>
+                        <button class="card-contact-gmail">
+                            <i class="fa-solid fa-envelope"></i>
+                            E-Mail
+                        </button>
+                        <button class="card-contact-zap">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="card card-2-animation" id="card-diferente3">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento1.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 6.500.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Pinheiros</h3>
+                <p class="card-subtitle-3">Rua dos parelheiros - 92</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">1</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">350m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="card card-3-animation" id="card-diferente2">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Casa</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/casa2.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Casa</p>
+                <h4 class="card-subtitle">R$ 14.500.000</h4>
+                <h3 class="card-subtitle-2">Casa de alto padrão em Jardins</h3>
+                <p class="card-subtitle-3">Rua Europa - 294</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">5</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">700m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <div class="card card-4-animation" id="card-diferente">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento2.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 3.500.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Itaim Bibi</h3>
+                <p class="card-subtitle-3">Avenida das testemunhas - 1519</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">200m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <article>
+        <div class="mensagem">
+            <div class="mensagem-title-starts-container">
+                <p class="mensagem-title">Compre</p>
+                <i class="fa-solid fa-star" id="mensagem-star"></i>
+                <p class="mensagem-title">Alugue</p>
+                <i class="fa-solid fa-star" id="mensagem-star"></i>
+                <p class="mensagem-title">Venda</p>
+            </div>
+            <h1 class="mensagem-text">Ajudamos pessoas a comprar, alugar e vender imóveis!</h1>
+            <p class="mensagem-subtitle">A imobiliária Terrabyte se destaca por oferecer um atendimento personalizado, auxiliando seus clientes na compra, venda e aluguel de imóveis.</p>
+        </div>
+    </article>
+    <div class="undraw-cards">
+        <div class="undraw-card">
+            <div class="undraw-card-img-container">
+                <img src="images/addtocard.svg" alt="" class="undraw-card-img">
+            </div>
+            <div class="undraw-card-text-container">
+                <h2 class="undraw-card-title">Os melhores corretores</h2>
+                <p class="undraw-card-text">Os corretores de imóveis da Terrabyte Imobiliária são conhecidos pela sua dedicação e profissionalismo.</p>
+                <button class="undraw-card-btn">Veja mais</button>
+            </div>
+        </div>
+        <div class="undraw-card">
+            <div class="undraw-card-img-container">
+                <img src="images/buildyourhome.svg" alt="" class="undraw-card-img">
+            </div>
+            <div class="undraw-card-text-container">
+                <h2 class="undraw-card-title">Serviço de excelência </h2>
+                <p class="undraw-card-text">A Terrabyte Imobiliária se destaca pelo seu serviço de excelência, que prioriza a satisfação do cliente em todas as etapas da transação imobiliária.</p>
+                <button class="undraw-card-btn">Veja mais</button>
+            </div>
+        </div>
+        <div class="undraw-card">
+            <div class="undraw-card-img-container">
+                <img src="images/undrawinterviel.svg" alt="" class="undraw-card-img">
+            </div>
+            <div class="undraw-card-text-container">
+                <h2 class="undraw-card-title">Cuidado com os clientes</h2>
+                <p class="undraw-card-text">A equipe é treinada para oferecer um atendimento personalizado, buscando entender as necessidades específicas de cada cliente.</p>
+                <button class="undraw-card-btn">Veja mais</button>
+            </div>
+        </div>
+    </div>
+    <div class="box-container box-animation">
+        <div class="box-text-container">
+            <h3 class="box-title">Interessado em vender sua casa?</h3>
+            <p class="box-text">Vender sua casa com a Terrabyte Imobiliária é fácil e descomplicado. Primeiro, um corretor faz uma avaliação gratuita para definir um preço justo.</p>
+            <button class="box-btn">Contate-nos</button>
+        </div>
+        <img src="images/house-box.jpg" alt="" class="box-img">
+    </div>
+    <article>
+        <div class="mensagem" id="vendas">
+            <p class="mensagem-title">Explore a cidade</p>
+            <h1 class="mensagem-text">Encontre os mais lindos bairros de São Paulo</h1>
+            <p class="mensagem-subtitle">Encontre o bairro de seus sonhos e explore para conhecer o local perfeito para sua casa.</p>
+        </div>
+    </article>
+    <div class="bairros-container">
+        <div class="bairro bairro-1-animation">
+            <div class="bairro-infos">
+                <h4 class="bairro-head">São Paulo</h4>
+                <h2 class="bairro-title">Morumbi</h2>
+            </div>
+            <div class="bairro-more">
+                <h4 class="bairro-head">Conheça</h4>
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <img src="images/bairro1.webp" alt="" class="bairro-img">
+        </div>
+        <div class="bairro bairro-2-animation" id="bairro-diferente3">
+            <div class="bairro-infos">
+                <h4 class="bairro-head">São Paulo</h4>
+                <h2 class="bairro-title">Jardins</h2>
+            </div>
+            <div class="bairro-more">
+                <h4 class="bairro-head">Conheça</h4>
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <img src="images/bairro2.webp" alt="" class="bairro-img">
+        </div>
+        <div class="bairro bairro-3-animation" id="bairro-diferente2">
+            <div class="bairro-infos">
+                <h4 class="bairro-head">São Paulo</h4>
+                <h2 class="bairro-title">Itaim Bibi</h2>
+            </div>
+            <div class="bairro-more">
+                <h4 class="bairro-head">Conheça</h4>
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <img src="images/bairro4.webp" alt="" class="bairro-img">
+        </div>
+        <div class="bairro bairro-4-animation" id="bairro-diferente" id="bairro-media">
+            <div class="bairro-infos">
+                <h4 class="bairro-head">São Paulo</h4>
+                <h2 class="bairro-title">Pinheiros</h2>
+            </div>
+            <div class="bairro-more">
+                <h4 class="bairro-head">Conheça</h4>
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <img src="images/bairro1.webp" alt="" class="bairro-img">
+        </div>
+    </div>
+    <article>
+        <div class="mensagem">
+            <p class="mensagem-title">À venda</p>
+            <h1 class="mensagem-text">Ultimos imoveis vendidos em São Paulo</h1>
+            <p class="mensagem-subtitle">Encontre imoveis pertos de você, no bairro que você deseja. O nosso compromisso com o cliente é oferecer o melhor atendimento.</p>
+        </div>
+    </article>
+    <div class="cards-container2">
+        <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento3.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 7.500.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Jardins</h3>
+                <p class="card-subtitle-3">Avenida das corintas - 144</p>
+            <div class="bottom-position-card">
+                <div class="forniture-icons">
+                    <div class="forniture-contain">
+                    <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                    <label for="fa-bed" id="forniture-label">4</label>
+                </div>
+                <div class="forniture-contain">
+                    <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                    <label for="fa-shower" id="forniture-label">2</label>
+                </div>
+                <div class="forniture-contain">
+                    <i class="fa-solid fa-car" id="forniture-icon"></i>
+                    <label for="fa-car" id="forniture-label">2</label>
+                </div>
+                <div class="forniture-contain">
+                    <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                    <label for="fa-ruler" id="forniture-label">600m²</label>
+                </div>
+                </div>
+                <div class="card-contact">
+                    <div class="card-contact-container">
+                        <button class="card-contact-call">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            Ligar
+                        </button>
+                        <button class="card-contact-gmail">
+                            <i class="fa-solid fa-envelope"></i>
+                            E-Mail
+                        </button>
+                        <button class="card-contact-zap">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento4.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 5.500.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Pinheiros</h3>
+                <p class="card-subtitle-3">Rua Altino - 48</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">1</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">450m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Casa</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/casa4.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Casa</p>
+                <h4 class="card-subtitle">R$ 14.500.000</h4>
+                <h3 class="card-subtitle-2">Casa de alto padrão em Alphaville</h3>
+                <p class="card-subtitle-3">Rua Europa - 182</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">5</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">1750m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento5.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 9.500.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Itaim Bibi</h3>
+                <p class="card-subtitle-3">Avenida America - 319</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">800m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Casa</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/casa5.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Casa</p>
+                <h4 class="card-subtitle">R$ 4.000.000</h4>
+                <h3 class="card-subtitle-2">Casa de alto padrão em Alphaville</h3>
+                <p class="card-subtitle-3">Rua Concordia - 932</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">3</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">3</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">1400m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento6.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 8.000.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Itaim Bibi</h3>
+                <p class="card-subtitle-3">Rua Italia - 200</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">800m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="card">
+            <div class="card-img-container">
+                <div class="card-img-cabecalho">
+                    <p class="exposicao">Disponível</p>
+                    <p class="casa-ap">Apartamento</p>
+                </div>
+                <div class="card-img-rodape">
+                    <i class="fa-regular fa-heart" id="card-img-icons"></i>
+                    <i class="fa-solid fa-share" id="card-img-icons"></i>
+                    <i class="fa-solid fa-plus" id="card-img-icons"></i>
+                </div>
+                <img src="images/apartamento7.webp" alt="" class="card-img">
+            </div>
+            <div class="card-text">
+                <p class="card-title">Apartamento</p>
+                <h4 class="card-subtitle">R$ 9.500.000</h4>
+                <h3 class="card-subtitle-2">Apartamento de alto padrão em Itaim Bibi</h3>
+                <p class="card-subtitle-3">Avenida America - 319</p>
+                <div class="bottom-position-card">
+                    <div class="forniture-icons">
+                        <div class="forniture-contain">
+                        <i class="fa-solid fa-bed" id="forniture-icon"></i>
+                        <label for="fa-bed" id="forniture-label">4</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-shower" id="forniture-icon"></i>
+                        <label for="fa-shower" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-car" id="forniture-icon"></i>
+                        <label for="fa-car" id="forniture-label">2</label>
+                    </div>
+                    <div class="forniture-contain">
+                        <i class="fa-solid fa-ruler" id="forniture-icon"></i>
+                        <label for="fa-ruler" id="forniture-label">800m²</label>
+                    </div>
+                    </div>
+                    <div class="card-contact">
+                        <div class="card-contact-container">
+                            <button class="card-contact-call">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                Ligar
+                            </button>
+                            <button class="card-contact-gmail">
+                                <i class="fa-solid fa-envelope"></i>
+                                E-Mail
+                            </button>
+                            <button class="card-contact-zap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <article>
+        <div class="mensagem" id="clientes">
+            <p class="mensagem-title">Nossos clientes</p>
+            <h1 class="mensagem-text">Como nossos clientes tem nos avaliado?</h1>
+            <p class="mensagem-subtitle">Nossos clientes têm avaliado a Terrabyte Imobiliária de maneira extremamente positiva, destacando principalmente o atendimento excepcional que recebem.</p>
+        </div>
+    </article>
+    <div class="box-clientes-container">
+        <div class="box-clientes clientes-1-animation">
+            <p class="clientes-fala">A experiência com a Terrabyte foi maravilhosa! Desde o primeiro contato, a equipe me atendeu com muita atenção e profissionalismo.</p>
+            <div class="clientes-perfil-container">
+                <img src="images/cliente1.webp" alt="" class="clientes-imagem">
+                <div class="clientes-perfil-nome">
+                    <p class="clientes-nome">Mariana dos Santos</p>
+                    <p class="clientes-perfil">Cliente</p>
+                </div>
+            </div>
+        </div>
+        <div class="box-clientes clientes-2-animation">
+            <p class="clientes-fala">Tive uma ótima experiência com a Terrabyte. O atendimento foi impecável desde o primeiro momento!</p>
+            <div class="clientes-perfil-container">
+                <img src="images/cliente2.webp" alt="" class="clientes-imagem">
+                <div class="clientes-perfil-nome">
+                    <p class="clientes-nome">Igor Rodrigues</p>
+                    <p class="clientes-perfil">Cliente</p>
+                </div>
+            </div>
+        </div>
+        <div class="box-clientes clientes-3-animation">
+            <p class="clientes-fala">Minha experiência com a Terrabyte foi excelente! Fui muito bem atendido desde o início, com uma equipe prestativa, atenciosa e altamente profissional.</p>
+            <div class="clientes-perfil-container">
+                <img src="images/cliente3.webp" alt="" class="clientes-imagem">
+                <div class="clientes-perfil-nome">
+                    <p class="clientes-nome">Clarisse de Souza</p>
+                    <p class="clientes-perfil">Cliente</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-column-container">
+            <div class="column">
+                <h2 class="column-title">Descubra</h2>
+                <ul class="column-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li class="column-link">São Paulo</li>
+                </ul>
+                <ul class="column-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li class="column-link">Rio de Janeiro</li>
+                </ul>
+                <ul class="column-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li class="column-link">Curitiba</li>
+                </ul>
+                <ul class="column-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li class="column-link">Porto Alegre</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2 class="column-title">Contate-nos</h2>
+                <ul class="column-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <li class="column-link">Avenida Paulista, 1000</li>
+                </ul>
+                <ul class="column-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <li class="column-link">(11) 99999-9999</li>
+                </ul>
+                <ul class="column-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <li class="column-link">terrabyte@example.com</li>
+                </ul>
+            </div>
+                <div class="column">
+                    <h2 class="column-title">Links uteis</h2>
+                    <ul class="column-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <li class="column-link">Politica de privacidade</li>
+                    </ul>
+                    <ul class="column-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <li class="column-link">Termos de uso</li>
+                    </ul>
+            </div>
+            <div class="column">
+                <h2 class="column-title">Informações</h2>
+                <ul class="column-item">
+                    <input type="text" name="" id="" class="column-form" placeholder="Contato">
+                    <input type="button" value="Enviar" class="column-button">
+                </ul>
+                <ul class="column-item">
+                    <p class="column-link">Se você está em busca do imóvel dos seus sonhos, a Terrabyte Imobiliária está aqui para ajudar!</p>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-column-2" id="contato">
+            <div class="footer-2-column">
+                <i class="fa-regular fa-copyright"></i>Nicolas Santos
+            </div>
+            <div class="footer-2-column">
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
